@@ -1,6 +1,6 @@
 FROM node:9-slim
-WORKDIR /app
-COPY package.json /app
+WORKDIR /node2docker
+COPY package.json /node2docker
 RUN npm install
-COPY /app /app
+COPY app /node2docker/app
 CMD ["npm", "start"]

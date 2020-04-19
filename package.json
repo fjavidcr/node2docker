@@ -4,12 +4,13 @@
   "description": "",
   "main": "app",
   "scripts": {
-    "start" : "node app/main.js",
+    "start": "nodemon app/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "fjavidcr",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
   }
 }
